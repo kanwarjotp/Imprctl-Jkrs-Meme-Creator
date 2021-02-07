@@ -383,7 +383,8 @@ footer{
     }
     
     #cnvsCtr{
-        margin:auto;
+        margin: auto;
+        padding-bottom: 5vh;
     }
     
     canvas{
@@ -394,6 +395,7 @@ footer{
     #Ctrls{
         grid-row: 2/3;
         display: grid;
+        padding-top:3.5vh;
         grid-template-rows: repeat(5, 20%);
         grid-template-columns: 50% 50%;
     }
