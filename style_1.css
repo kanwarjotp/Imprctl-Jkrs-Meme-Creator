@@ -207,7 +207,6 @@ input {
 footer{
     max-height: 100vh;
     font-size: 8vh;
-    border: 1px solid lavender;
     display: grid;
     grid-template-rows: repeat(4, 25vh);
     grid-template-columns: repeat(4, 25vw);
