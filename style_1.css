@@ -44,6 +44,7 @@ header{
     grid-column: 2/5;
     font-size: 5vh;
     text-align: center;
+    color: rgb(217, 248, 42);
 }
 
 
@@ -71,6 +72,7 @@ header{
         grid-column: 2/5;
         font-size: 5vh;
         text-align: center;
+        color: rgb(217, 248, 42);
     }
 }
 
