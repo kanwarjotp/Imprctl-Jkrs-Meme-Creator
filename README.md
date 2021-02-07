@@ -4,6 +4,7 @@ My submission to <b>Impractical Hackers</b> Hackathon on 5th-7th Feb'21 weekend.
 <br><br>
 <h2>Design of the Website</h2>
 <p>
+  <quote>A completely Responsive design for eacha nd every Device</quote>
   The <b>Homepage</b> of the website is set to a minimilastic scene, focussing on the task done by the website and avoiding any uneccessary directions. I uesd Horizontal Scrolling as I felt it would further simplify the website's UX. The presence of a nav bar on the bottom of the screen also aims to smoothen the <i>navigation</i> as pages snap into view. The meme creater application itself is very simple, with a clean gallery present along it to activate the user's creatvity. The <b>Footer</b>. of the website is an entire page at the end. The user has the choice to share the website to their Twitter and Facebook pages. 
 </p>
 <br>
