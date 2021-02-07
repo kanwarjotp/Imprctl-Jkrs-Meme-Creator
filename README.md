@@ -1,4 +1,4 @@
-<h1>Impractical Jokers Meme Creater</h1>
+<h1>Impractical Jokers Meme Creator</h1>
 <br><br>
 My submission to <b>Impractical Hackers</b> Hackathon on 5th-7th Feb'21 weekend.
 <br><br>
