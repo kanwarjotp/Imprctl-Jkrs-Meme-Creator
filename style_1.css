@@ -383,7 +383,7 @@ footer{
     }
     
     #cnvsCtr{
-        padding: 5vh 5vw 5vh 5vw;
+        margin:auto;
     }
     
     canvas{
