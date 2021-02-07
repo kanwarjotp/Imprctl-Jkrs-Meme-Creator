@@ -1,0 +1,160 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_1.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>ImpracticalJokersMemeCreater</title>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0"
+      nonce="A3spikfm"
+    ></script>
+    <header id="hdr">
+      <span id="sml">Meme Creater</span>
+      <span id="heading">IMPRACTICAL JOKERS</span>
+    </header>
+    <!-- <div id="vidCntnr">
+        <video loop muted autoplay id="vid">
+            <source src="https://media.giphy.com/media/3o6fJ9KmhYXsiTsLqE/giphy.mp4">
+        </video>
+    </div> -->
+    <nav>
+      <ul>
+        <li><a href="#hdr">HOME</a></li>
+        <li><a href="#meme">MEME CREATER</a></li>
+        <li><a href="#ghub">SHARE | CONTACT</a></li>
+      </ul>
+    </nav>
+    <div id="meme">
+      <div id="cnvsCtr">
+        <canvas id="canvas" width="1024" height="1024">
+          Canvas requires a browser that supports HTML5.
+        </canvas>
+        <img id="temp" src="https://www.hollywoodnews.com/wp-content/uploads/2020/02/736f7015-9c34-46bf-8f98-8502ffa5d7ec_1239481_TABLET_LANDSCAPE_LARGE_16_9.jpg" hidden />
+        <div id="download">
+          <button onClick="downImg()" id="downButton">Generate Link</button>
+        </div>
+      </div>
+
+      <div id="Ctrls">
+        <span id="memeHd">Headline</span>
+        <span id="txtInp"><input type="text" id="line"/></span>
+        <div id="gallery">
+          <a href="#" onClick="choseImg('g1'); return false;"
+            ><img
+              id="g1"
+              class="galImg"
+              src="https://www.tvinsider.com/wp-content/uploads/2020/02/impractical-jokers-the-movie.jpg"
+          /></a>
+          <a href="#" onClick="choseImg('g2'); return false"
+            ><img
+              id="g2"
+              class="galImg"
+              src="https://images.trutv.com/tru/w_416/https%3A%2F%2Fi.cdn.trutv.com%2Fassets%2Ftru%2Fprod%2Fimages%2F2020%2F01%2Fij818-1920x1080_100.jpg"
+          /></a>
+          <a href="#" onClick="choseImg('g3'); return false;"
+            ><img
+              id="g3"
+              class="galImg"
+              src="https://www.slashfilm.com/wp/wp-content/images/impracticaljokers-movie-cave.jpg"
+          /></a>
+          <a href="#" onClick="choseImg('g4'); return false;"
+            ><img
+              id="g4"
+              class="galImg"
+              src="https://i.ytimg.com/vi/UFlZnheNm2k/maxresdefault.jpg"
+          /></a>
+          <a href="#" onClick="choseImg('g5'); return false;"
+            ><img
+              id="g5"
+              class="galImg"
+              src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/turner-impracticaljokers_S15-Full-Image_GalleryBackground-en-US-1575137119696._SX1080_.jpg"
+          /></a>
+          <a href="#" onClick="choseImg('g6'); return false;"
+            ><img
+              id="g6"
+              class="galImg"
+              src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/review_gallery_carousel_slide_thumbnail_landscape/public/externals/818f3222d3c2a691b80c26580f9c9cc7.jpg?itok=PxQ2xclX"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="vid1Ctr">
+        <video loop muted autoplay id="vid1">
+          <source
+            src="https://media.giphy.com/media/WOf7tad6LZQGxWqiC1/giphy.mp4"
+          />
+        </video>
+      </div>
+      <div id="vid2Ctr">
+        <video loop muted autoplay id="vid2">
+          <source
+            src="https://media.giphy.com/media/2im3DAab3FF1fiurhk/giphy.mp4"
+          />
+        </video>
+      </div>
+      <!-- <div id="vid3Ctr">
+            <video loop muted autoplay id="vid3">
+                <source src="https://media.giphy.com/media/1gCV86ypMCPlvu6XbY/giphy.mp4">
+            </video>
+        </div> -->
+
+      <!-- Facebook Share Button-->
+      <div id="fb-info">
+        <br />
+        Share this website on Facebook
+      </div>
+      <div
+        class="fb-share-button"
+        data-href="https://reliable-aeolian-breath.glitch.me/landing_page_1.html"
+        data-layout="button"
+        data-size="large"
+      >
+        <a
+          target="_blank"
+          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Freliable-aeolian-breath.glitch.me%2Flanding_page_1.html&amp;src=sdkpreparse"
+          class="fb-xfbml-parse-ignore"
+        >
+          Share
+        </a>
+      </div>
+
+      <!-- Twitter Share Button -->
+      <div id="tw-info">
+        Share this website on Twitter
+      </div>
+      <a
+        class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?text=Impractical%20Jokers%20Meme%20Creater%20by%20@kanwar_jot%20&hashtags=ImpraticalJokers&url=https://reliable-aeolian-breath.glitch.me/landing_page_1.html"
+      >
+        Tweet
+      </a>
+      <div id="ghub">
+        <span id="ghubln"
+          ><i
+            ><a href="https://github.com/kanwarjotp"
+              >https://github.com/kanwarjotp</a
+            ></i
+          ></span
+        >
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
