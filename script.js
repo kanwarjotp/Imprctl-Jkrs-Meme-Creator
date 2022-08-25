@@ -33,7 +33,7 @@ window.onload = function() {
   drawOriginalImage(canvas, ctx);
   //draw new image given by user
   newImg = new Image();
-  newImg.src = 'https://thumbs-prod.si-cdn.com/vykbs6TJSb8Z8Jv6dCPQldUI6M0=/fit-in/1600x0/https://public-media.si-cdn.com/filer/01/a8/01a82275-e542-47c5-aa79-1af3caecdac4/gettyimages-1010735052.jpg'
+  newImg.src = 'https://raw.githubusercontent.com/kanwarjotp/Imprctl-Jkrs-Meme-Creator/0ec2b299ab0e521857ab6ddf274c32804a0856e0/impkrs%20imgs/img1.jpg?raw=true'
 
   newImg.onload = function() {
     go();
@@ -42,7 +42,6 @@ window.onload = function() {
 
 function writeTxt() {
   var txt = document.getElementById("line").value;
-  console.log(txt);
   // ctx.textBaseline = "middle";
   ctx.fillStyle = "red";
   ctx.font = "small-caps bold 50px arial";
