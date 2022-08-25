@@ -50,11 +50,12 @@ function writeTxt() {
 }
 
 function downImg() {
+  console.log("activated")
   let link = canvas.toDataURL()
   let node = document.getElementById('downButton');
   let txt = '<a id="downLink" href="' + link + '"> CLICK HERE ! </a>';
   node.insertAdjacentHTML("afterend", txt);
-  // window.open('"'+link+'"');
+  window.open('"'+link+'"');
 }
 
 function choseImg(imgId) {
